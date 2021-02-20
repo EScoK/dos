@@ -2,28 +2,28 @@ cls
 color 07
 @ echo off
 del e:\time.log
-echo.  %ÏÔÊ¾Ôö¼ÓÒ»¸ö¿ÕÐÐ%
-echo Ö¸Áî1#
+echo.  %æ˜¾ç¤ºå¢žåŠ ä¸€ä¸ªç©ºè¡Œ%
+echo æŒ‡ä»¤1#
 pause
-echo    ¡¤¡¤¡¤¡ñ  1¿ªÊ¼£º >>e:\time.log
-time /t >>e:\time.log
-dir c:/a
-echo ---1½áÊø£º >>e:\time.log
-time /t >>e:\time.log
-echo.  %ÏÔÊ¾Ôö¼ÓÒ»¸ö¿ÕÐÐ%
+echo    Â·Â·Â·â—  1å¼€å§‹ï¼š >>i:\time.log
+time /t >>i:\time.log
+dir i:/a
+echo ---1ç»“æŸï¼š >>i:\time.log
+time /t >>i:\time.log
+echo.  %æ˜¾ç¤ºå¢žåŠ ä¸€ä¸ªç©ºè¡Œ%
 
-echo Ö¸Áî2#
+echo æŒ‡ä»¤2#
 pause
-echo    ¡¤¡¤¡¤¡ñ  2¿ªÊ¼£º >>e:\time.log
-tree d:
-echo ---2½áÊø£º>>e:\time.log
-time /t >>e:\time.log
+echo    Â·Â·Â·â—  2å¼€å§‹ï¼š >>i:\time.log
+tree i:
+echo ---2ç»“æŸï¼š>>i:\time.log
+time /t >>i:\time.log
 cls
 @ echo off
-type e:\time.log
+type i:\time.log
 color 1e
-echo      ====    É¾³ý¼ÇÂ¼ÎÄ¼þ   ====
+echo      ====    åˆ é™¤è®°å½•æ–‡ä»¶   ====
 pause
-del e:\time.log
+del i:\time.log
 color 07
 exit /b
